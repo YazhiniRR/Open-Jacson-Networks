@@ -1,5 +1,7 @@
-# EXP 6: Series Queues with infinite capacity - Open Jackson Network
-## Date:3.11.23
+# EXP NO : 6 (OPEN-JACKSON-NETWORK)
+# NAME : YAZHINI.R.R
+# DATE : 14.12.2024
+# REGISTER NO : 24900920
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the each conveyor of (c) waiting time of each material in the system (d) waiting time of each material in each conveyor, if the arrival  of materials follow Poisson process with the mean interval time 12 seconds, service time of  lathe machine in series follow exponential distribution  with service time  1 second, 1.5 seconds and 1.3 seconds respectively and average service time of robot is 7 seconds.
 
@@ -17,17 +19,14 @@ Visual components and Python
 
 
 ## Experiment:
-
-![277123017-ab09dd11-9276-4ef8-903a-7e27eb759f20](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/c046f7ce-38a1-476f-b832-6d536213d4e5)
-
-![277123025-d3b25f72-b148-49d8-8882-b499a602aa31](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/a133f449-0960-4856-9cb2-c64576c7e6b8)
-
+![Screenshot 2024-12-18 233932](https://github.com/user-attachments/assets/292d359e-b007-4571-9c36-9baf0c0e008f)
 
 ## Program
-```py
-Developed by : Priyanka.A
-Register number : 212222230113
-
+```
+Developed by : yazhini R R
+Register number : 24900920
+```
+```
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time1=float(input("Enter the mean  inter service time of Lathe Machine 1 (in secs) :  "))
 ser_time2=float(input("Enter the mean  inter service time of Lathe Machine 2 (in secs) :  "))
@@ -67,7 +66,7 @@ else:
 print("----------------------------------------------------------------------")
 ```
 ## Output
-![280449150-ddaddd8f-f0e0-4573-8592-55278889542b](https://github.com/PriyankaAnnadurai/Open-Jacson-Networks/assets/118351569/2a38a741-ddc1-4d6c-b6b8-5a2289769ac8)
+![Screenshot 2024-12-18 233946](https://github.com/user-attachments/assets/67cb49d6-6dda-4f81-b664-a4f39916b0b0)
 
 ## Result
-The average number of material in the sysytem and in the conveyor and waiting time are successfully found.
+The average number of material in the system and in the conveyor and waiting time are successfully found.
